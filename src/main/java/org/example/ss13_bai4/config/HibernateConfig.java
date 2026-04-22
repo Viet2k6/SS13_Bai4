@@ -20,7 +20,7 @@ public class HibernateConfig {
         sessionFactory.setDataSource(dataSource);
 
         // Quét các thực thể khởi tạo bảng sang database
-        sessionFactory.setPackagesToScan("org.example.ss13.model");
+        sessionFactory.setPackagesToScan("org.example.ss13_bai4.model");
 
         // cấu hình thông số
         Properties properties = new Properties();
